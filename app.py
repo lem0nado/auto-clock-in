@@ -10,12 +10,6 @@ import smtplib
 from os import environ
 from email.mime.text import MIMEText
 
-EMAIL_USERNAME = environ['EMAIL_USERNAME']
-EMAIL_TO = environ['EMAIL_TO']
-EMAIL_FROM = environ['EMAIL_FROM']
-EMAIL_PASSWORD = environ['EMAIL_PASSWORD']
-EMAIL_SERVER = environ['EMAIL_SERVER']
-EMAIL_PORT = int(environ['EMAIL_PORT'])
 core = json.loads(environ['DATA'])
 
 URL_SESSION = 'http://bjut.sanyth.com:81/nonlogin/qywx/authentication.htm?appId=402880c97b1aa5f7017b1ad2bd97001b&urlb64=L3dlaXhpbi9zYW55dGgvaG9tZS5odG1s'
