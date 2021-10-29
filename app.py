@@ -96,14 +96,4 @@ HTTP status: {response_clockin.status_code}
 }
 '''
 
-message = MIMEText(result, 'plain', 'utf-8')
-message['Subject'] = '打卡结果'
-message['FROM'] = EMAIL_FROM
-message['To'] = EMAIL_TO
-
-server = smtplib.SMTP(EMAIL_SERVER)
-server.connect(EMAIL_SERVER, EMAIL_PORT)
-server.ehlo()
-server.starttls()
-server.login(EMAIL_USERNAME, EMAIL_PASSWORD)
-server.sendmail(EMAIL_USERNAME, [EMAIL_USERNAME], message.as_string())
+print(result)
