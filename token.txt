@@ -1,3 +1,17 @@
+{
+"id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+"token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+"c16": "在校且住宿",
+"c17": "在京",
+"c18": "低风险地区",
+"c12": "北京市,北京市,朝阳区,",
+"c15": "无情况",
+"type": "YQSJSB",
+"location_longitude": 116.480165,
+"location_latitude": 39.873745,
+"location_address": "北京市朝阳区南磨房乡北京工业大学"
+}
+
 2021.10.30
 id=402880c97cc98d88017ccae58d5b62bf
 token=6D6FDB67AC30C57A2F630EA3E2E70585
@@ -5,3 +19,7 @@ token=6D6FDB67AC30C57A2F630EA3E2E70585
 2021.11.07
 id=402880c97cc98d88017cf3306b721db7
 token=56DC855CA5550A5373627B7B121112F6
+
+2021.11.15
+id=402880c97cc98d88017d1c45c41a5cdc
+token=6C47B63341FB7019B43236EA01BCD0EB
