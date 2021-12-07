@@ -16,6 +16,7 @@ from email.mime.text import MIMEText
 # EMAIL_PASSWORD = environ['EMAIL_PASSWORD']
 # EMAIL_SERVER = environ['EMAIL_SERVER']
 # EMAIL_PORT = int(environ['EMAIL_PORT'])
+'''
 core = {
 "id": "2c95de297d8646d5017d926443b95246",
 "token": "404978DE4DFC3B4736B32B1D2A58D65D",
@@ -28,8 +29,8 @@ core = {
 "location_latitude": 39.873798,
 "location_address": "北京市朝阳区南磨房乡北京工业大学"
 }
-
-# json.loads(environ['DATA'])
+'''
+json.loads(environ['DATA'])
 
 
 result = ""
@@ -127,4 +128,3 @@ server.ehlo()
 server.starttls()
 server.login(EMAIL_USERNAME, EMAIL_PASSWORD)
 server.sendmail(EMAIL_USERNAME, [EMAIL_USERNAME], message.as_string())
-
